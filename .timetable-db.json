@@ -1,0 +1,4605 @@
+{
+  "version": 163,
+  "lastUpdatedAt": "2026-11-19T06:36:23.815Z",
+  "lastUpdatedBy": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+  "schoolInfo": {
+    "academicName": "นางสาวฐิติมา คำแสง",
+    "academicPos": "หัวหน้างานวิชาการ",
+    "academicYear": "2569",
+    "affiliation": "สำนักงานเขตพื้นที่การศึกษาประถมศึกษายโสธร เขต 1",
+    "directorMainPos": "ผู้อำนวยการโรงเรียนบ้านเขื่องคำ",
+    "directorName": "นายศุภชัย ขาวพา",
+    "directorSubPos": "รักษาการในตำแหน่งผู้อำนวยการโรงเรียนดอนแก้วปากเป่งคุยสำโรง",
+    "logoUrl": "https://i.postimg.cc/8P6Y6MxB/baebs-him-t-dph-n.png",
+    "schoolName": "โรงเรียนดอนแก้วปากเป่งคุยสำโรง",
+    "semester": "2",
+    "showDirectorSubPos": true
+  },
+  "periods": [
+    {
+      "end": "09:30",
+      "id": "P1",
+      "label": "คาบที่ 1",
+      "order": 1,
+      "start": "08:30",
+      "type": "study"
+    },
+    {
+      "end": "10:30",
+      "id": "P2",
+      "label": "คาบที่ 2",
+      "order": 2,
+      "start": "09:30",
+      "type": "study"
+    },
+    {
+      "end": "11:30",
+      "id": "P3",
+      "label": "คาบที่ 3",
+      "order": 3,
+      "start": "10:30",
+      "type": "study"
+    },
+    {
+      "end": "12:30",
+      "id": "LUNCH",
+      "label": "พักกลางวัน",
+      "order": 4,
+      "start": "11:30",
+      "type": "lunch"
+    },
+    {
+      "end": "13:30",
+      "id": "P4",
+      "label": "คาบที่ 4",
+      "order": 5,
+      "start": "12:30",
+      "type": "study"
+    },
+    {
+      "end": "14:30",
+      "id": "P5",
+      "label": "คาบที่ 5",
+      "order": 6,
+      "start": "13:30",
+      "type": "study"
+    },
+    {
+      "end": "15:30",
+      "id": "P6",
+      "label": "คาบที่ 6",
+      "order": 7,
+      "start": "14:30",
+      "type": "study"
+    }
+  ],
+  "teachers": [
+    {
+      "color": "#FFD6E0",
+      "dept": "ทุกกลุ่มสาระ",
+      "fullName": "สายสวาสดิ์ นันพิลา",
+      "homeroom": "ป.3",
+      "id": "T01",
+      "lineTargetId": "",
+      "position": "ครูชำนาญการพิเศษ",
+      "prefix": "นางสาว"
+    },
+    {
+      "color": "#D4F0F0",
+      "dept": "ทุกกลุ่มสาระ",
+      "fullName": "ฐิติมา คำแสง",
+      "homeroom": "ป.1",
+      "id": "T02",
+      "lineTargetId": "U8ca3ac5775523c976b96a85f5618c7e5",
+      "position": "ครูชำนาญการ",
+      "prefix": "นางสาว"
+    },
+    {
+      "color": "#E8DFF5",
+      "dept": "ภาษาต่างประเทศ",
+      "fullName": "ศักดิ์สิทธิ์ น้อยโนนเมือง",
+      "homeroom": "ป.6",
+      "id": "T03",
+      "lineTargetId": "U97fd22a47f78970c65561501049e7b5f",
+      "position": "ครู",
+      "prefix": "นาย"
+    },
+    {
+      "color": "#DCEDC8",
+      "dept": "คณิตศาสตร์",
+      "fullName": "เอกศิรดา นันทศรี",
+      "homeroom": "ป.4",
+      "id": "T04",
+      "lineTargetId": "Ua730273cd92670f1f0a5faf34f98fdc5",
+      "position": "ครูผู้ช่วย",
+      "prefix": "นางสาว"
+    },
+    {
+      "color": "#FFE0B2",
+      "dept": "พลศึกษา",
+      "fullName": "จักริน ผลสิน",
+      "homeroom": "ม.2",
+      "id": "T05",
+      "lineTargetId": "U653cb8a56239f85518fdb65a7ce7be7a",
+      "position": "ครูผู้ช่วย",
+      "prefix": "นาย"
+    },
+    {
+      "color": "#FFF9C4",
+      "dept": "วิทยาศาสตร์และเทคโนโลยี",
+      "fullName": "ปุญญพัฒน์ จันตะคุณ",
+      "homeroom": "ม.3",
+      "id": "T06",
+      "lineTargetId": "U81005781fe0ce84cf0f61725b2e4bf44",
+      "position": "พนักงานราชการ",
+      "prefix": "นางสาว"
+    },
+    {
+      "color": "#F8BBD0",
+      "dept": "วิทยาศาสตร์และเทคโนโลยี",
+      "fullName": "พนิดา เลิกนอก",
+      "homeroom": "ม.2",
+      "id": "T07",
+      "lineTargetId": "U81c616bbcc46e174eebf5d84da4256ee",
+      "position": "พนักงานราชการ",
+      "prefix": "นางสาว"
+    },
+    {
+      "color": "#C5CAE9",
+      "dept": "วิทยาศาสตร์และเทคโนโลยี",
+      "fullName": "สุรวัฒน์ ถือศักดิ์",
+      "homeroom": "ม.3",
+      "id": "T08",
+      "lineTargetId": "",
+      "position": "ครูผู้ช่วย(ลูกจ้างประจำ)",
+      "prefix": "นาย"
+    },
+    {
+      "color": "#B2DFDB",
+      "dept": "วิทยาศาสตร์และเทคโนโลยี",
+      "fullName": "ปิยะพัฒน์ ธนะสิงห์",
+      "homeroom": "ม.1",
+      "id": "T09",
+      "lineTargetId": "U0506e288ddf139978ce1e63e32eb8119",
+      "position": "ครูพี่เลี้ยง",
+      "prefix": "นางสาว"
+    },
+    {
+      "color": "#FFCCBC",
+      "dept": "ภาษาไทย",
+      "fullName": "ณัฐธิดา ชูรัตน์",
+      "homeroom": "ป.5",
+      "id": "T10",
+      "lineTargetId": "U02639387cb7e2647269f60d1726584a1",
+      "position": "ธุรการ",
+      "prefix": "นางสาว"
+    }
+  ],
+  "subjects": [
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ท11101",
+      "coreMorning": true,
+      "grade": "ป.1",
+      "hours": 5,
+      "id": "SUB001",
+      "name": "ภาษาไทย",
+      "teacherId": "T10"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ค11101",
+      "coreMorning": true,
+      "grade": "ป.1",
+      "hours": 5,
+      "id": "SUB002",
+      "name": "คณิตศาสตร์",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ว11101",
+      "coreMorning": true,
+      "grade": "ป.1",
+      "hours": 2,
+      "id": "SUB003",
+      "name": "วิทยาศาสตร์และเทคโนโลยี",
+      "teacherId": "T09"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "อ11101",
+      "coreMorning": true,
+      "grade": "ป.1",
+      "hours": 3,
+      "id": "SUB004",
+      "name": "ภาษาอังกฤษพื้นฐาน",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส11101",
+      "coreMorning": false,
+      "grade": "ป.1",
+      "hours": 2,
+      "id": "SUB005",
+      "name": "สังคมศึกษาฯ",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส11102",
+      "coreMorning": false,
+      "grade": "ป.1",
+      "hours": 1,
+      "id": "SUB006",
+      "name": "ประวัติศาสตร์",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "พ11101",
+      "coreMorning": false,
+      "grade": "ป.1",
+      "hours": 1,
+      "id": "SUB007",
+      "name": "สุขศึกษาและพลศึกษา",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ศ11101",
+      "coreMorning": false,
+      "grade": "ป.1",
+      "hours": 1,
+      "id": "SUB008",
+      "name": "ศิลปะ (ดนตรี-นาฏศิลป์)",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ง11101",
+      "coreMorning": false,
+      "grade": "ป.1",
+      "hours": 1,
+      "id": "SUB009",
+      "name": "การงานอาชีพ",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาเพิ่มเติม",
+      "code": "อ11201",
+      "coreMorning": false,
+      "grade": "ป.1",
+      "hours": 2,
+      "id": "SUB011",
+      "name": "ภาษาอังกฤษเพื่อการสื่อสาร",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "กิจกรรมแนะแนว",
+      "code": "ก11901",
+      "coreMorning": false,
+      "grade": "ป.1",
+      "hours": 1,
+      "id": "SUB012",
+      "name": "กิจกรรมแนะแนว",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "กิจกรรมลูกเสือ-เนตรนารี",
+      "code": "ก11902",
+      "coreMorning": false,
+      "grade": "ป.1",
+      "hours": 1,
+      "id": "SUB013",
+      "name": "ลูกเสือ - เนตรนารี",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "กิจกรรมชุมนุม",
+      "code": "ก11903",
+      "coreMorning": false,
+      "grade": "ป.1",
+      "hours": 1,
+      "id": "SUB014",
+      "name": "กิจกรรมชุมนุม",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ท12101",
+      "coreMorning": true,
+      "grade": "ป.2",
+      "hours": 5,
+      "id": "SUB016",
+      "name": "ภาษาไทย",
+      "teacherId": "T10"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ค12101",
+      "coreMorning": true,
+      "grade": "ป.2",
+      "hours": 5,
+      "id": "SUB017",
+      "name": "คณิตศาสตร์",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ว12101",
+      "coreMorning": false,
+      "grade": "ป.2",
+      "hours": 2,
+      "id": "SUB018",
+      "name": "วิทยาศาสตร์และเทคโนโลยี",
+      "teacherId": "T09"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "อ12101",
+      "coreMorning": true,
+      "grade": "ป.2",
+      "hours": 3,
+      "id": "SUB019",
+      "name": "ภาษาอังกฤษพื้นฐาน",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส12101",
+      "coreMorning": false,
+      "grade": "ป.2",
+      "hours": 2,
+      "id": "SUB020",
+      "name": "สังคมศึกษาฯ",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส12102",
+      "coreMorning": false,
+      "grade": "ป.2",
+      "hours": 1,
+      "id": "SUB021",
+      "name": "ประวัติศาสตร์",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "พ12101",
+      "coreMorning": false,
+      "grade": "ป.2",
+      "hours": 1,
+      "id": "SUB022",
+      "name": "สุขศึกษาและพลศึกษา",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ศ12101",
+      "coreMorning": false,
+      "grade": "ป.2",
+      "hours": 1,
+      "id": "SUB023",
+      "name": "ศิลปะ (ดนตรี-นาฏศิลป์)",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ง12101",
+      "coreMorning": false,
+      "grade": "ป.2",
+      "hours": 1,
+      "id": "SUB024",
+      "name": "การงานอาชีพ",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาเพิ่มเติม",
+      "code": "อ12201",
+      "coreMorning": false,
+      "grade": "ป.2",
+      "hours": 2,
+      "id": "SUB026",
+      "name": "ภาษาอังกฤษเพื่อการสื่อสาร",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "กิจกรรมแนะแนว",
+      "code": "ก12901",
+      "coreMorning": false,
+      "grade": "ป.2",
+      "hours": 1,
+      "id": "SUB027",
+      "name": "กิจกรรมแนะแนว",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "กิจกรรมลูกเสือ-เนตรนารี",
+      "code": "ก12902",
+      "coreMorning": false,
+      "grade": "ป.2",
+      "hours": 1,
+      "id": "SUB028",
+      "name": "ลูกเสือ - เนตรนารี",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "กิจกรรมชุมนุม",
+      "code": "ก12903",
+      "coreMorning": false,
+      "grade": "ป.2",
+      "hours": 1,
+      "id": "SUB029",
+      "name": "กิจกรรมชุมนุม",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาเพิ่มเติม",
+      "code": "ก12904",
+      "coreMorning": false,
+      "grade": "ป.2",
+      "hours": 1,
+      "id": "SUB030",
+      "name": "ป้องกันการทุจริต",
+      "teacherId": "T08"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ท13101",
+      "coreMorning": true,
+      "grade": "ป.3",
+      "hours": 5,
+      "id": "SUB031",
+      "name": "ภาษาไทย",
+      "teacherId": "T01"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ค13101",
+      "coreMorning": true,
+      "grade": "ป.3",
+      "hours": 5,
+      "id": "SUB032",
+      "name": "คณิตศาสตร์",
+      "teacherId": "T01"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ว13101",
+      "coreMorning": true,
+      "grade": "ป.3",
+      "hours": 2,
+      "id": "SUB033",
+      "name": "วิทยาศาสตร์และเทคโนโลยี",
+      "teacherId": "T01"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "อ13101",
+      "coreMorning": true,
+      "grade": "ป.3",
+      "hours": 3,
+      "id": "SUB034",
+      "name": "ภาษาอังกฤษพื้นฐาน",
+      "teacherId": "T01"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส13101",
+      "coreMorning": false,
+      "grade": "ป.3",
+      "hours": 2,
+      "id": "SUB035",
+      "name": "สังคมศึกษาฯ",
+      "teacherId": "T01"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส13102",
+      "coreMorning": false,
+      "grade": "ป.3",
+      "hours": 1,
+      "id": "SUB036",
+      "name": "ประวัติศาสตร์",
+      "teacherId": "T01"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "พ13101",
+      "coreMorning": false,
+      "grade": "ป.3",
+      "hours": 1,
+      "id": "SUB037",
+      "name": "สุขศึกษาและพลศึกษา",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ศ13101",
+      "coreMorning": false,
+      "grade": "ป.3",
+      "hours": 1,
+      "id": "SUB038",
+      "name": "ศิลปะ (ดนตรี-นาฏศิลป์)",
+      "teacherId": "T01"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ง13101",
+      "coreMorning": false,
+      "grade": "ป.3",
+      "hours": 1,
+      "id": "SUB039",
+      "name": "การงานอาชีพ",
+      "teacherId": "T01"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "ส13201",
+      "coreMorning": false,
+      "grade": "ป.3",
+      "hours": 1,
+      "id": "SUB040",
+      "name": "ป้องกันการทุจริต",
+      "teacherId": "T01"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "อ13201",
+      "coreMorning": false,
+      "grade": "ป.3",
+      "hours": 2,
+      "id": "SUB041",
+      "name": "ภาษาอังกฤษเพื่อการสื่อสาร",
+      "teacherId": "T01"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมแนะแนว",
+      "code": "ก13901",
+      "coreMorning": false,
+      "grade": "ป.3",
+      "hours": 1,
+      "id": "SUB042",
+      "name": "กิจกรรมแนะแนว",
+      "teacherId": "T01"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมลูกเสือ-เนตรนารี",
+      "code": "ก13902",
+      "coreMorning": false,
+      "grade": "ป.3",
+      "hours": 1,
+      "id": "SUB043",
+      "name": "ลูกเสือ - เนตรนารี",
+      "teacherId": "T01"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมชุมนุม",
+      "code": "ก13903",
+      "coreMorning": false,
+      "grade": "ป.3",
+      "hours": 1,
+      "id": "SUB044",
+      "name": "กิจกรรมชุมนุม",
+      "teacherId": "T01"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ท14101",
+      "coreMorning": true,
+      "grade": "ป.4",
+      "hours": 4,
+      "id": "SUB046",
+      "name": "ภาษาไทย",
+      "teacherId": "T10"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ค14101",
+      "coreMorning": true,
+      "grade": "ป.4",
+      "hours": 4,
+      "id": "SUB047",
+      "name": "คณิตศาสตร์",
+      "teacherId": "T08"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ว14101",
+      "coreMorning": true,
+      "grade": "ป.4",
+      "hours": 3,
+      "id": "SUB048",
+      "name": "วิทยาศาสตร์และเทคโนโลยี",
+      "teacherId": "T09"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "อ14101",
+      "coreMorning": true,
+      "grade": "ป.4",
+      "hours": 2,
+      "id": "SUB049",
+      "name": "ภาษาอังกฤษพื้นฐาน",
+      "teacherId": "T06"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส14101",
+      "coreMorning": false,
+      "grade": "ป.4",
+      "hours": 2,
+      "id": "SUB050",
+      "name": "สังคมศึกษาฯ",
+      "teacherId": "T08"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส14102",
+      "coreMorning": false,
+      "grade": "ป.4",
+      "hours": 1,
+      "id": "SUB051",
+      "name": "ประวัติศาสตร์",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "พ14101",
+      "coreMorning": false,
+      "grade": "ป.4",
+      "hours": 1,
+      "id": "SUB052",
+      "name": "สุขศึกษาและพลศึกษา",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ศ14101",
+      "coreMorning": false,
+      "grade": "ป.4",
+      "hours": 1,
+      "id": "SUB053",
+      "name": "ศิลปะ (ดนตรี-นาฏศิลป์)",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ง14101",
+      "coreMorning": false,
+      "grade": "ป.4",
+      "hours": 1,
+      "id": "SUB054",
+      "name": "การงานอาชีพ",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "ส14201",
+      "coreMorning": false,
+      "grade": "ป.4",
+      "hours": 1,
+      "id": "SUB055",
+      "name": "ป้องกันการทุจริต",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "ท14201",
+      "coreMorning": false,
+      "grade": "ป.4",
+      "hours": 1,
+      "id": "SUB056",
+      "name": "ภาษาไทย(เพิ่มเติม)",
+      "teacherId": "T07"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมแนะแนว",
+      "code": "ก14901",
+      "coreMorning": false,
+      "grade": "ป.4",
+      "hours": 1,
+      "id": "SUB057",
+      "name": "กิจกรรมแนะแนว",
+      "teacherId": "T04"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมลูกเสือ-เนตรนารี",
+      "code": "ก14902",
+      "coreMorning": false,
+      "grade": "ป.4",
+      "hours": 1,
+      "id": "SUB058",
+      "name": "ลูกเสือ - เนตรนารี",
+      "teacherId": "T04"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมชุมนุม",
+      "code": "ก14903",
+      "coreMorning": false,
+      "grade": "ป.4",
+      "hours": 1,
+      "id": "SUB059",
+      "name": "กิจกรรมชุมนุม",
+      "teacherId": "T04"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ท15101",
+      "coreMorning": true,
+      "grade": "ป.5",
+      "hours": 4,
+      "id": "SUB061",
+      "name": "ภาษาไทย",
+      "teacherId": "T06"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ค15101",
+      "coreMorning": true,
+      "grade": "ป.5",
+      "hours": 4,
+      "id": "SUB062",
+      "name": "คณิตศาสตร์",
+      "teacherId": "T07"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ว15101",
+      "coreMorning": true,
+      "grade": "ป.5",
+      "hours": 3,
+      "id": "SUB063",
+      "name": "วิทยาศาสตร์และเทคโนโลยี",
+      "teacherId": "T09"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "อ15101",
+      "coreMorning": true,
+      "grade": "ป.5",
+      "hours": 2,
+      "id": "SUB064",
+      "name": "ภาษาอังกฤษพื้นฐาน",
+      "teacherId": "T03"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส15101",
+      "coreMorning": false,
+      "grade": "ป.5",
+      "hours": 2,
+      "id": "SUB065",
+      "name": "สังคมศึกษาฯ",
+      "teacherId": "T08"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส15102",
+      "coreMorning": false,
+      "grade": "ป.5",
+      "hours": 1,
+      "id": "SUB066",
+      "name": "ประวัติศาสตร์",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "พ15101",
+      "coreMorning": false,
+      "grade": "ป.5",
+      "hours": 1,
+      "id": "SUB067",
+      "name": "สุขศึกษาและพลศึกษา",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ศ15101",
+      "coreMorning": false,
+      "grade": "ป.5",
+      "hours": 1,
+      "id": "SUB068",
+      "name": "ศิลปะ (ดนตรี-นาฏศิลป์)",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ง15101",
+      "coreMorning": false,
+      "grade": "ป.5",
+      "hours": 1,
+      "id": "SUB069",
+      "name": "การงานอาชีพ",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "ว15201",
+      "coreMorning": false,
+      "grade": "ป.5",
+      "hours": 1,
+      "id": "SUB070",
+      "name": "ป้องกันการทุจริต",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "อ15201",
+      "coreMorning": false,
+      "grade": "ป.5",
+      "hours": 1,
+      "id": "SUB071",
+      "name": "ภาษาไทย(เพิ่มเติม)",
+      "teacherId": "T06"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมแนะแนว",
+      "code": "ก15901",
+      "coreMorning": false,
+      "grade": "ป.5",
+      "hours": 1,
+      "id": "SUB072",
+      "name": "กิจกรรมแนะแนว",
+      "teacherId": "T10"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมลูกเสือ-เนตรนารี",
+      "code": "ก15902",
+      "coreMorning": false,
+      "grade": "ป.5",
+      "hours": 1,
+      "id": "SUB073",
+      "name": "ลูกเสือ - เนตรนารี",
+      "teacherId": "T10"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมชุมนุม",
+      "code": "ก15903",
+      "coreMorning": false,
+      "grade": "ป.5",
+      "hours": 1,
+      "id": "SUB074",
+      "name": "กิจกรรมชุมนุม",
+      "teacherId": "T10"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ท16101",
+      "coreMorning": true,
+      "grade": "ป.6",
+      "hours": 4,
+      "id": "SUB076",
+      "name": "ภาษาไทย",
+      "teacherId": "T10"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ค16101",
+      "coreMorning": true,
+      "grade": "ป.6",
+      "hours": 4,
+      "id": "SUB077",
+      "name": "คณิตศาสตร์",
+      "teacherId": "T04"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ว16101",
+      "coreMorning": true,
+      "grade": "ป.6",
+      "hours": 3,
+      "id": "SUB078",
+      "name": "วิทยาศาสตร์และเทคโนโลยี",
+      "teacherId": "T09"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "อ16101",
+      "coreMorning": true,
+      "grade": "ป.6",
+      "hours": 2,
+      "id": "SUB079",
+      "name": "ภาษาอังกฤษพื้นฐาน",
+      "teacherId": "T03"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส16101",
+      "coreMorning": false,
+      "grade": "ป.6",
+      "hours": 2,
+      "id": "SUB080",
+      "name": "สังคมศึกษาฯ",
+      "teacherId": "T08"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส16102",
+      "coreMorning": false,
+      "grade": "ป.6",
+      "hours": 1,
+      "id": "SUB081",
+      "name": "ประวัติศาสตร์",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "พ16101",
+      "coreMorning": false,
+      "grade": "ป.6",
+      "hours": 1,
+      "id": "SUB082",
+      "name": "สุขศึกษาและพลศึกษา",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ศ16101",
+      "coreMorning": false,
+      "grade": "ป.6",
+      "hours": 1,
+      "id": "SUB083",
+      "name": "ศิลปะ (ดนตรี-นาฏศิลป์)",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ง16101",
+      "coreMorning": false,
+      "grade": "ป.6",
+      "hours": 1,
+      "id": "SUB084",
+      "name": "การงานอาชีพ",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "ว16201",
+      "coreMorning": false,
+      "grade": "ป.6",
+      "hours": 1,
+      "id": "SUB085",
+      "name": "ป้องกันการทุจริต",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "อ16201",
+      "coreMorning": false,
+      "grade": "ป.6",
+      "hours": 1,
+      "id": "SUB086",
+      "name": "ภาษาไทย(เพิ่มเติม)",
+      "teacherId": "T07"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมแนะแนว",
+      "code": "ก16901",
+      "coreMorning": false,
+      "grade": "ป.6",
+      "hours": 1,
+      "id": "SUB087",
+      "name": "กิจกรรมแนะแนว",
+      "teacherId": "T03"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมลูกเสือ-เนตรนารี",
+      "code": "ก16902",
+      "coreMorning": false,
+      "grade": "ป.6",
+      "hours": 1,
+      "id": "SUB088",
+      "name": "ลูกเสือ - เนตรนารี",
+      "teacherId": "T03"
+    },
+    {
+      "allowCombined": true,
+      "category": "กิจกรรมชุมนุม",
+      "code": "ก16903",
+      "coreMorning": false,
+      "grade": "ป.6",
+      "hours": 1,
+      "id": "SUB089",
+      "name": "กิจกรรมชุมนุมวิชาการ",
+      "teacherId": "T03"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ท21101",
+      "coreMorning": true,
+      "grade": "ม.1",
+      "hours": 3,
+      "id": "SUB091",
+      "name": "ภาษาไทย",
+      "teacherId": "T06"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ค21101",
+      "coreMorning": true,
+      "grade": "ม.1",
+      "hours": 3,
+      "id": "SUB092",
+      "name": "คณิตศาสตร์",
+      "teacherId": "T04"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ว21101",
+      "coreMorning": true,
+      "grade": "ม.1",
+      "hours": 4,
+      "id": "SUB093",
+      "name": "วิทยาศาสตร์และเทคโนโลยี",
+      "teacherId": "T07"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "อ21101",
+      "coreMorning": true,
+      "grade": "ม.1",
+      "hours": 3,
+      "id": "SUB094",
+      "name": "ภาษาอังกฤษพื้นฐาน",
+      "teacherId": "T03"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส21101",
+      "coreMorning": false,
+      "grade": "ม.1",
+      "hours": 3,
+      "id": "SUB095",
+      "name": "สังคมศึกษาฯ",
+      "teacherId": "T08"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส21102",
+      "coreMorning": false,
+      "grade": "ม.1",
+      "hours": 1,
+      "id": "SUB096",
+      "name": "ประวัติศาสตร์",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "พ21101",
+      "coreMorning": false,
+      "grade": "ม.1",
+      "hours": 2,
+      "id": "SUB097",
+      "name": "สุขศึกษาและพลศึกษา",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ศ21101",
+      "coreMorning": false,
+      "grade": "ม.1",
+      "hours": 2,
+      "id": "SUB098",
+      "name": "ศิลปะ (ดนตรี-นาฏศิลป์)",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ง21101",
+      "coreMorning": false,
+      "grade": "ม.1",
+      "hours": 1,
+      "id": "SUB099",
+      "name": "การงานอาชีพ",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "ว21201",
+      "coreMorning": false,
+      "grade": "ม.1",
+      "hours": 1,
+      "id": "SUB100",
+      "name": "ป้องกันการทุจริต",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "อ21201",
+      "coreMorning": false,
+      "grade": "ม.1",
+      "hours": 2,
+      "id": "SUB101",
+      "name": "ภาษาอังกฤษเพื่อการสื่อสาร",
+      "teacherId": "T03"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมแนะแนว",
+      "code": "ก21901",
+      "coreMorning": false,
+      "grade": "ม.1",
+      "hours": 1,
+      "id": "SUB102",
+      "name": "กิจกรรมแนะแนว",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมลูกเสือ-เนตรนารี",
+      "code": "ก21902",
+      "coreMorning": false,
+      "grade": "ม.1",
+      "hours": 1,
+      "id": "SUB103",
+      "name": "ลูกเสือ - เนตรนารี",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมชุมนุม",
+      "code": "ก21903",
+      "coreMorning": false,
+      "grade": "ม.1",
+      "hours": 1,
+      "id": "SUB104",
+      "name": "กิจกรรมชุมนุมวิชาการ",
+      "teacherId": "T09"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ท22101",
+      "coreMorning": true,
+      "grade": "ม.2",
+      "hours": 3,
+      "id": "SUB106",
+      "name": "ภาษาไทย",
+      "teacherId": "T06"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ค22101",
+      "coreMorning": true,
+      "grade": "ม.2",
+      "hours": 3,
+      "id": "SUB107",
+      "name": "คณิตศาสตร์",
+      "teacherId": "T04"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ว22101",
+      "coreMorning": true,
+      "grade": "ม.2",
+      "hours": 4,
+      "id": "SUB108",
+      "name": "วิทยาศาสตร์และเทคโนโลยี",
+      "teacherId": "T07"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "อ22101",
+      "coreMorning": true,
+      "grade": "ม.2",
+      "hours": 3,
+      "id": "SUB109",
+      "name": "ภาษาอังกฤษพื้นฐาน",
+      "teacherId": "T03"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส22101",
+      "coreMorning": false,
+      "grade": "ม.2",
+      "hours": 3,
+      "id": "SUB110",
+      "name": "สังคมศึกษาฯ",
+      "teacherId": "T08"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส22102",
+      "coreMorning": false,
+      "grade": "ม.2",
+      "hours": 1,
+      "id": "SUB111",
+      "name": "ประวัติศาสตร์",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "พ22101",
+      "coreMorning": false,
+      "grade": "ม.2",
+      "hours": 2,
+      "id": "SUB112",
+      "name": "สุขศึกษาและพลศึกษา",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ศ22101",
+      "coreMorning": false,
+      "grade": "ม.2",
+      "hours": 2,
+      "id": "SUB113",
+      "name": "ศิลปะ (ดนตรี-นาฏศิลป์)",
+      "teacherId": "T07"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ง22101",
+      "coreMorning": false,
+      "grade": "ม.2",
+      "hours": 1,
+      "id": "SUB114",
+      "name": "การงานอาชีพ",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "ว22201",
+      "coreMorning": false,
+      "grade": "ม.2",
+      "hours": 1,
+      "id": "SUB115",
+      "name": "ป้องกันการทุจริต",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "อ22201",
+      "coreMorning": false,
+      "grade": "ม.2",
+      "hours": 2,
+      "id": "SUB116",
+      "name": "ภาษาอังกฤษเพื่อการสื่อสาร",
+      "teacherId": "T03"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมแนะแนว",
+      "code": "ก22901",
+      "coreMorning": false,
+      "grade": "ม.2",
+      "hours": 1,
+      "id": "SUB117",
+      "name": "กิจกรรมแนะแนว",
+      "teacherId": "T07"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมลูกเสือ-เนตรนารี",
+      "code": "ก22902",
+      "coreMorning": false,
+      "grade": "ม.2",
+      "hours": 1,
+      "id": "SUB118",
+      "name": "ลูกเสือ - เนตรนารี",
+      "teacherId": "T07"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมชุมนุม",
+      "code": "ก22903",
+      "coreMorning": false,
+      "grade": "ม.2",
+      "hours": 1,
+      "id": "SUB119",
+      "name": "กิจกรรมชุมนุม",
+      "teacherId": "T07"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ท23101",
+      "coreMorning": true,
+      "grade": "ม.3",
+      "hours": 3,
+      "id": "SUB121",
+      "name": "ภาษาไทย",
+      "teacherId": "T10"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ค23101",
+      "coreMorning": true,
+      "grade": "ม.3",
+      "hours": 3,
+      "id": "SUB122",
+      "name": "คณิตศาสตร์",
+      "teacherId": "T04"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ว23101",
+      "coreMorning": true,
+      "grade": "ม.3",
+      "hours": 4,
+      "id": "SUB123",
+      "name": "วิทยาศาสตร์และเทคโนโลยี",
+      "teacherId": "T06"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "อ23101",
+      "coreMorning": true,
+      "grade": "ม.3",
+      "hours": 3,
+      "id": "SUB124",
+      "name": "ภาษาอังกฤษพื้นฐาน",
+      "teacherId": "T03"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส23101",
+      "coreMorning": false,
+      "grade": "ม.3",
+      "hours": 3,
+      "id": "SUB125",
+      "name": "สังคมศึกษาฯ",
+      "teacherId": "T08"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ส23102",
+      "coreMorning": false,
+      "grade": "ม.3",
+      "hours": 1,
+      "id": "SUB126",
+      "name": "ประวัติศาสตร์",
+      "teacherId": "T02"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "พ23101",
+      "coreMorning": false,
+      "grade": "ม.3",
+      "hours": 2,
+      "id": "SUB127",
+      "name": "สุขศึกษาและพลศึกษา",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาพื้นฐาน",
+      "code": "ศ23101",
+      "coreMorning": false,
+      "grade": "ม.3",
+      "hours": 2,
+      "id": "SUB128",
+      "name": "ศิลปะ (ดนตรี-นาฏศิลป์)",
+      "teacherId": "T07"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาพื้นฐาน",
+      "code": "ง23101",
+      "coreMorning": false,
+      "grade": "ม.3",
+      "hours": 1,
+      "id": "SUB129",
+      "name": "การงานอาชีพ",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "ว23201",
+      "coreMorning": false,
+      "grade": "ม.3",
+      "hours": 1,
+      "id": "SUB130",
+      "name": "ป้องกันการทุจริต",
+      "teacherId": "T05"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "อ23201",
+      "coreMorning": false,
+      "grade": "ม.3",
+      "hours": 2,
+      "id": "SUB131",
+      "name": "ภาษาอังกฤษเพื่อการสื่อสาร",
+      "teacherId": "T03"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมแนะแนว",
+      "code": "ก23901",
+      "coreMorning": false,
+      "grade": "ม.3",
+      "hours": 1,
+      "id": "SUB132",
+      "name": "กิจกรรมแนะแนว",
+      "teacherId": "T08"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมลูกเสือ-เนตรนารี",
+      "code": "ก23902",
+      "coreMorning": false,
+      "grade": "ม.3",
+      "hours": 1,
+      "id": "SUB133",
+      "name": "ลูกเสือ - เนตรนารี",
+      "teacherId": "T06"
+    },
+    {
+      "allowCombined": false,
+      "category": "กิจกรรมชุมนุม",
+      "code": "ก23903",
+      "coreMorning": false,
+      "grade": "ม.3",
+      "hours": 1,
+      "id": "SUB134",
+      "name": "กิจกรรมชุมนุม",
+      "teacherId": "T06"
+    },
+    {
+      "allowCombined": true,
+      "category": "วิชาเพิ่มเติม",
+      "code": "ส11201",
+      "coreMorning": false,
+      "grade": "ป.1",
+      "hours": 1,
+      "id": "SUB44005",
+      "name": "ป้องกันการทุจริต",
+      "teacherId": "T08"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "ค21202",
+      "coreMorning": false,
+      "grade": "ม.1",
+      "hours": 2,
+      "id": "SUB26510",
+      "name": "คณิตศาสตร์(เพิ่มเติม)",
+      "teacherId": "T04"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "ค22202",
+      "coreMorning": false,
+      "grade": "ม.2",
+      "hours": 2,
+      "id": "SUB36398",
+      "name": "คณิตศาสตร์(เพิ่มเติม)",
+      "teacherId": "T04"
+    },
+    {
+      "allowCombined": false,
+      "category": "วิชาเพิ่มเติม",
+      "code": "ค23202",
+      "coreMorning": false,
+      "grade": "ม.3",
+      "hours": 2,
+      "id": "SUB48615",
+      "name": "คณิตศาสตร์(เพิ่มเติม)",
+      "teacherId": "T04"
+    }
+  ],
+  "schedule": {
+    "ป.1_FRI_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB002",
+      "updatedAt": "2026-11-17T01:53:28.313Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_FRI_P2": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB001",
+      "updatedAt": "2026-11-17T01:53:33.657Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_FRI_P3": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB008",
+      "updatedAt": "2026-11-17T01:54:34.956Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_FRI_P4": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB005",
+      "updatedAt": "2026-11-17T01:54:40.214Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_FRI_P5": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB011",
+      "updatedAt": "2026-11-17T01:54:46.322Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_FRI_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB014",
+      "updatedAt": "2026-11-17T01:54:49.486Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_MON_P1": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB002",
+      "updatedAt": "2026-11-17T01:46:08.887Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_MON_P2": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB001",
+      "updatedAt": "2026-11-17T01:46:21.207Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_MON_P3": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB009",
+      "updatedAt": "2026-11-17T01:46:28.868Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_MON_P4": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB004",
+      "updatedAt": "2026-11-17T01:46:53.034Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_MON_P5": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB005",
+      "updatedAt": "2026-11-17T01:47:02.646Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_MON_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB012",
+      "updatedAt": "2026-11-17T01:47:06.549Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_THU_P1": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB002",
+      "updatedAt": "2026-11-17T01:49:52.359Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_THU_P2": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB001",
+      "updatedAt": "2026-11-17T01:50:00.312Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_THU_P3": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB004",
+      "updatedAt": "2026-11-17T01:50:07.974Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_THU_P4": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB44005",
+      "updatedAt": "2026-11-17T01:53:03.862Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_THU_P5": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB006",
+      "updatedAt": "2026-11-17T01:53:13.150Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_THU_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB013",
+      "updatedAt": "2026-11-17T01:53:22.690Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_TUE_P1": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB002",
+      "updatedAt": "2026-11-17T01:47:13.521Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_TUE_P2": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB001",
+      "updatedAt": "2026-11-17T01:47:26.545Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_TUE_P3": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB004",
+      "updatedAt": "2026-11-17T01:49:24.087Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_TUE_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB010"
+    },
+    "ป.1_TUE_P5": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB003",
+      "updatedAt": "2026-11-17T01:47:43.567Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_WED_P1": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB002",
+      "updatedAt": "2026-11-17T01:47:58.137Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_WED_P2": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB001",
+      "updatedAt": "2026-11-17T01:49:01.577Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_WED_P3": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB007",
+      "updatedAt": "2026-11-17T01:49:30.105Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_WED_P4": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB003",
+      "updatedAt": "2026-11-17T01:49:36.876Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.1_WED_P5": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB011",
+      "updatedAt": "2026-11-17T01:49:42.538Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_FRI_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB017",
+      "updatedAt": "2026-11-17T05:48:05.888Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_FRI_P2": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB016",
+      "updatedAt": "2026-11-17T02:38:57.499Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_FRI_P3": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB023",
+      "updatedAt": "2026-11-17T02:39:04.036Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_FRI_P4": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB020",
+      "updatedAt": "2026-11-17T02:39:10.596Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_FRI_P5": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB026",
+      "updatedAt": "2026-11-17T02:39:17.515Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_FRI_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB029",
+      "updatedAt": "2026-11-17T02:39:21.944Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_MON_P1": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB017",
+      "updatedAt": "2026-11-17T02:33:26.729Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_MON_P2": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB016",
+      "updatedAt": "2026-11-17T02:33:34.759Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_MON_P3": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB024",
+      "updatedAt": "2026-11-17T02:35:24.235Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_MON_P4": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB019",
+      "updatedAt": "2026-11-17T02:33:51.473Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_MON_P5": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB020",
+      "updatedAt": "2026-11-17T02:34:01.374Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_MON_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB027",
+      "updatedAt": "2026-11-17T02:34:12.143Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_THU_P1": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB017"
+    },
+    "ป.2_THU_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB016"
+    },
+    "ป.2_THU_P3": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB019",
+      "updatedAt": "2026-11-17T02:37:00.766Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_THU_P4": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB030",
+      "updatedAt": "2026-11-17T02:37:08.765Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_THU_P5": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB021",
+      "updatedAt": "2026-11-17T02:38:43.545Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_THU_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB028",
+      "updatedAt": "2026-11-17T02:38:50.404Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_TUE_P1": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB017",
+      "updatedAt": "2026-11-17T02:34:20.897Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_TUE_P2": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB016",
+      "updatedAt": "2026-11-17T02:34:27.043Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_TUE_P3": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB019",
+      "updatedAt": "2026-11-17T02:35:57.714Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_TUE_P5": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB018",
+      "updatedAt": "2026-11-17T02:36:20.226Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_WED_P1": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB017"
+    },
+    "ป.2_WED_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB016"
+    },
+    "ป.2_WED_P3": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB022"
+    },
+    "ป.2_WED_P4": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB018",
+      "updatedAt": "2026-11-17T02:36:36.596Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.2_WED_P5": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB026",
+      "updatedAt": "2026-11-17T02:36:48.895Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_FRI_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB032",
+      "updatedAt": "2026-11-17T05:00:59.501Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_FRI_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB031",
+      "updatedAt": "2026-11-17T05:01:20.751Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_FRI_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB041",
+      "updatedAt": "2026-11-17T05:04:21.921Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_FRI_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB039",
+      "updatedAt": "2026-11-17T05:03:40.583Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_FRI_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB040",
+      "updatedAt": "2026-11-17T05:04:31.984Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_FRI_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB044"
+    },
+    "ป.3_MON_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB032",
+      "updatedAt": "2026-11-17T05:00:33.842Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_MON_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB031",
+      "updatedAt": "2026-11-17T05:01:05.172Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_MON_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB033",
+      "updatedAt": "2026-11-17T05:02:03.155Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_MON_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB034",
+      "updatedAt": "2026-11-17T05:03:04.787Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_MON_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB035",
+      "updatedAt": "2026-11-17T12:42:04.438Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_MON_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB042"
+    },
+    "ป.3_THU_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB032",
+      "updatedAt": "2026-11-17T05:00:55.753Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_THU_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB031",
+      "updatedAt": "2026-11-17T05:01:16.860Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_THU_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB041",
+      "updatedAt": "2026-11-17T05:02:23.520Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_THU_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB043",
+      "updatedAt": "2026-11-17T05:04:15.256Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_TUE_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB032",
+      "updatedAt": "2026-11-17T05:00:46.769Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_TUE_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB031",
+      "updatedAt": "2026-11-17T05:01:09.420Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_TUE_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB033",
+      "updatedAt": "2026-11-17T05:02:09.522Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_TUE_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB034",
+      "updatedAt": "2026-11-17T05:03:14.129Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_TUE_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB035",
+      "updatedAt": "2026-11-17T12:42:28.910Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_WED_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB032",
+      "updatedAt": "2026-11-17T05:00:44.124Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_WED_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB031",
+      "updatedAt": "2026-11-17T05:01:13.230Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_WED_P3": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB037",
+      "updatedAt": "2026-11-17T12:40:55.331Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_WED_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB036",
+      "updatedAt": "2026-11-17T05:03:22.823Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.3_WED_P5": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB041"
+    },
+    "ป.3_WED_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB038",
+      "updatedAt": "2026-11-17T12:42:20.841Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_FRI_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB053",
+      "updatedAt": "2026-11-17T05:07:22.228Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_FRI_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB048",
+      "updatedAt": "2026-11-17T05:07:27.793Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_FRI_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB046",
+      "updatedAt": "2026-11-17T05:07:32.694Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_FRI_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB047",
+      "updatedAt": "2026-11-17T05:08:23.705Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_FRI_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB049",
+      "updatedAt": "2026-11-17T05:08:53.505Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_FRI_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB059"
+    },
+    "ป.4_MON_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB047",
+      "updatedAt": "2026-11-17T05:04:53.123Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_MON_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB054",
+      "updatedAt": "2026-11-17T05:05:31.714Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_MON_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB056",
+      "updatedAt": "2026-11-17T05:42:41.139Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_MON_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB050",
+      "updatedAt": "2026-11-17T05:07:57.641Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_MON_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB048",
+      "updatedAt": "2026-11-17T05:08:29.617Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_MON_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB057"
+    },
+    "ป.4_THU_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB047",
+      "updatedAt": "2026-11-17T05:05:12.437Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_THU_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB049",
+      "updatedAt": "2026-11-17T05:06:58.503Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_THU_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB055",
+      "updatedAt": "2026-11-17T05:06:40.856Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_THU_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB051",
+      "updatedAt": "2026-11-17T05:07:05.320Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_THU_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB046",
+      "updatedAt": "2026-11-17T05:08:44.663Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_THU_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB058",
+      "updatedAt": "2026-11-17T05:09:00.953Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_TUE_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB047",
+      "updatedAt": "2026-11-17T05:04:56.818Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_TUE_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB053",
+      "updatedAt": "2026-11-17T05:05:43.936Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_TUE_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB050",
+      "updatedAt": "2026-11-17T05:06:23.823Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_TUE_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB046",
+      "updatedAt": "2026-11-17T06:38:17.274Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_TUE_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB056",
+      "updatedAt": "2026-11-17T05:08:34.843Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_WED_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB046",
+      "updatedAt": "2026-11-17T05:05:05.069Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_WED_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB049",
+      "updatedAt": "2026-11-17T05:06:32.874Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_WED_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB048",
+      "updatedAt": "2026-11-17T05:08:39.281Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.4_WED_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB052",
+      "updatedAt": "2026-11-17T05:09:11.292Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_FRI_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB062",
+      "updatedAt": "2026-11-17T05:41:06.933Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_FRI_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB064",
+      "updatedAt": "2026-11-17T05:42:11.618Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_FRI_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB061",
+      "updatedAt": "2026-11-17T05:43:53.412Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_FRI_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB074"
+    },
+    "ป.5_MON_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB062",
+      "updatedAt": "2026-11-17T05:40:41.127Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_MON_P2": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB069",
+      "updatedAt": "2026-11-17T05:41:13.949Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_MON_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB063",
+      "updatedAt": "2026-11-17T05:42:18.922Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_MON_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB061",
+      "updatedAt": "2026-11-17T05:44:41.839Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_MON_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB068",
+      "updatedAt": "2026-11-17T05:45:24.320Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_MON_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB072"
+    },
+    "ป.5_THU_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB061",
+      "updatedAt": "2026-11-17T05:40:58.422Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_THU_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB064",
+      "updatedAt": "2026-11-17T05:42:07.478Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_THU_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB065",
+      "updatedAt": "2026-11-17T05:43:43.672Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_THU_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB071",
+      "updatedAt": "2026-11-17T05:45:16.143Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_THU_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB070",
+      "updatedAt": "2026-11-17T06:20:26.221Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_THU_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB073",
+      "updatedAt": "2026-11-17T05:47:03.576Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_TUE_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB063",
+      "updatedAt": "2026-11-17T05:40:46.487Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_TUE_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB062",
+      "updatedAt": "2026-11-17T05:41:48.751Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_TUE_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB061",
+      "updatedAt": "2026-11-17T05:43:30.334Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_TUE_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB068",
+      "updatedAt": "2026-11-17T05:44:49.972Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_TUE_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB066",
+      "updatedAt": "2026-11-17T05:46:04.931Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_WED_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB064",
+      "updatedAt": "2026-11-17T05:40:53.134Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_WED_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB063",
+      "updatedAt": "2026-11-17T05:41:54.860Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_WED_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB065",
+      "updatedAt": "2026-11-17T05:43:34.520Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_WED_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB062"
+    },
+    "ป.5_WED_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB071",
+      "updatedAt": "2026-11-17T05:46:15.328Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.5_WED_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB067",
+      "updatedAt": "2026-11-17T05:46:55.480Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_FRI_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB076",
+      "updatedAt": "2026-11-17T05:47:46.429Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_FRI_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB078",
+      "updatedAt": "2026-11-17T05:50:00.314Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_FRI_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB085",
+      "updatedAt": "2026-11-17T05:50:39.873Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_FRI_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB083",
+      "updatedAt": "2026-11-17T05:51:14.747Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_FRI_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB089"
+    },
+    "ป.6_MON_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB077",
+      "updatedAt": "2026-11-17T05:47:26.157Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_MON_P2": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB084",
+      "updatedAt": "2026-11-17T05:48:48.072Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_MON_P3": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB076"
+    },
+    "ป.6_MON_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB079",
+      "updatedAt": "2026-11-17T05:50:08.154Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_MON_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB080",
+      "updatedAt": "2026-11-17T05:51:33.537Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_MON_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB087"
+    },
+    "ป.6_THU_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB079"
+    },
+    "ป.6_THU_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB086",
+      "updatedAt": "2026-11-17T05:49:17.808Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_THU_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB077",
+      "updatedAt": "2026-11-17T05:49:53.207Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_THU_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB078",
+      "updatedAt": "2026-11-17T05:52:28.638Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_THU_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB088",
+      "updatedAt": "2026-11-17T05:51:58.112Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_TUE_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB076",
+      "updatedAt": "2026-11-17T05:47:32.234Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_TUE_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB079",
+      "updatedAt": "2026-11-17T05:49:02.044Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_TUE_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB077",
+      "updatedAt": "2026-11-17T05:49:33.933Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_TUE_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB078",
+      "updatedAt": "2026-11-17T05:50:15.380Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_TUE_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB083",
+      "updatedAt": "2026-11-17T05:51:40.460Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_TUE_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB086"
+    },
+    "ป.6_WED_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB077",
+      "updatedAt": "2026-11-17T05:47:37.225Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_WED_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB080",
+      "updatedAt": "2026-11-17T05:49:08.724Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_WED_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB076",
+      "updatedAt": "2026-11-17T05:49:41.865Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_WED_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB081",
+      "updatedAt": "2026-11-17T05:50:24.860Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ป.6_WED_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB082",
+      "updatedAt": "2026-11-17T12:52:54.005Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_FRI_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB101",
+      "updatedAt": "2026-11-17T06:02:28.122Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_FRI_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB096",
+      "updatedAt": "2026-11-17T06:03:00.380Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_FRI_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB098",
+      "updatedAt": "2026-11-17T06:03:36.355Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_FRI_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB093",
+      "updatedAt": "2026-11-17T06:05:03.121Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_FRI_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB095",
+      "updatedAt": "2026-11-17T06:05:38.656Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_FRI_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB104"
+    },
+    "ม.1_MON_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB091",
+      "updatedAt": "2026-11-17T06:01:48.113Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_MON_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB092",
+      "updatedAt": "2026-11-17T06:02:35.797Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_MON_P3": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB094"
+    },
+    "ม.1_MON_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB093",
+      "updatedAt": "2026-11-17T06:04:34.197Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_MON_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB26510",
+      "updatedAt": "2026-11-17T12:57:55.135Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_MON_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB102"
+    },
+    "ม.1_THU_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB092",
+      "updatedAt": "2026-11-17T06:02:15.459Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_THU_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB095",
+      "updatedAt": "2026-11-17T06:02:55.573Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_THU_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB091",
+      "updatedAt": "2026-11-17T06:03:32.082Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_THU_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB101",
+      "updatedAt": "2026-11-17T06:04:56.727Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_THU_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB093",
+      "updatedAt": "2026-11-17T06:05:29.420Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_THU_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB103",
+      "updatedAt": "2026-11-17T06:05:46.286Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_TUE_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB092",
+      "updatedAt": "2026-11-17T06:01:52.373Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_TUE_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB091",
+      "updatedAt": "2026-11-17T06:02:44.941Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_TUE_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB100",
+      "updatedAt": "2026-11-17T06:03:11.069Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_TUE_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB095",
+      "updatedAt": "2026-11-17T06:04:40.542Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_TUE_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB094",
+      "updatedAt": "2026-11-17T06:05:17.068Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_TUE_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB26510",
+      "updatedAt": "2026-11-17T06:06:06.144Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_WED_P1": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB097",
+      "updatedAt": "2026-11-17T06:02:06.069Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_WED_P2": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB097",
+      "updatedAt": "2026-11-17T06:02:10.489Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_WED_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB093",
+      "updatedAt": "2026-11-17T06:03:24.564Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_WED_P4": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB099",
+      "updatedAt": "2026-11-17T06:04:47.049Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_WED_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB098",
+      "updatedAt": "2026-11-17T06:05:23.099Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.1_WED_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB094",
+      "updatedAt": "2026-11-18T07:35:47.415Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_FRI_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB107",
+      "updatedAt": "2026-11-17T06:08:41.169Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_FRI_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB108",
+      "updatedAt": "2026-11-17T06:09:09.012Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_FRI_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB110",
+      "updatedAt": "2026-11-17T06:09:52.374Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_FRI_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB116",
+      "updatedAt": "2026-11-17T06:12:05.632Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_FRI_P5": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB113"
+    },
+    "ม.2_FRI_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB119"
+    },
+    "ม.2_MON_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB109",
+      "updatedAt": "2026-11-17T06:08:11.526Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_MON_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB110",
+      "updatedAt": "2026-11-17T06:08:46.188Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_MON_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB36398",
+      "updatedAt": "2026-11-17T06:09:20.857Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_MON_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB115",
+      "updatedAt": "2026-11-17T06:09:59.420Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_MON_P5": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB106",
+      "updatedAt": "2026-11-17T06:12:10.910Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_MON_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB117"
+    },
+    "ม.2_THU_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB108",
+      "updatedAt": "2026-11-17T06:08:35.407Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_THU_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB107",
+      "updatedAt": "2026-11-17T06:09:01.549Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_THU_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB109",
+      "updatedAt": "2026-11-17T06:09:43.946Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_THU_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB108",
+      "updatedAt": "2026-11-17T06:11:49.592Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_THU_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB107",
+      "updatedAt": "2026-11-17T06:12:28.889Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_THU_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB118",
+      "updatedAt": "2026-11-17T06:13:14.718Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_TUE_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB106",
+      "updatedAt": "2026-11-17T06:08:17.753Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_TUE_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB36398",
+      "updatedAt": "2026-11-17T06:08:55.372Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_TUE_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB108",
+      "updatedAt": "2026-11-17T06:09:24.274Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_TUE_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB113",
+      "updatedAt": "2026-11-17T06:10:05.493Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_TUE_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB111",
+      "updatedAt": "2026-11-17T06:12:17.773Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_TUE_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB110",
+      "updatedAt": "2026-11-17T06:13:25.645Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_WED_P1": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB112",
+      "updatedAt": "2026-11-17T06:08:24.919Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_WED_P2": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB112",
+      "updatedAt": "2026-11-17T06:08:29.825Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_WED_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB109",
+      "updatedAt": "2026-11-17T06:09:31.304Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_WED_P4": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB114",
+      "updatedAt": "2026-11-17T06:11:41.997Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_WED_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB116",
+      "updatedAt": "2026-11-17T06:12:23.263Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.2_WED_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB106",
+      "updatedAt": "2026-11-17T06:13:48.632Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_FRI_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB125",
+      "updatedAt": "2026-11-17T06:14:59.489Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_FRI_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB122",
+      "updatedAt": "2026-11-17T06:15:24.188Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_FRI_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB124",
+      "updatedAt": "2026-11-17T06:18:48.316Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_FRI_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB123",
+      "updatedAt": "2026-11-17T06:19:34.133Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_FRI_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB121",
+      "updatedAt": "2026-11-17T06:20:37.883Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_FRI_P6": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB134"
+    },
+    "ม.3_MON_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB121",
+      "updatedAt": "2026-11-17T06:14:09.951Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_MON_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB126",
+      "updatedAt": "2026-11-17T06:15:05.222Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_MON_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB123",
+      "updatedAt": "2026-11-17T06:15:32.888Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_MON_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB48615",
+      "updatedAt": "2026-11-17T06:18:58.160Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_MON_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB124",
+      "updatedAt": "2026-11-17T12:59:03.206Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_MON_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB132",
+      "updatedAt": "2026-11-17T12:59:19.751Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_THU_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB121",
+      "updatedAt": "2026-11-17T06:14:51.144Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_THU_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB130",
+      "updatedAt": "2026-11-17T06:15:18.474Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_THU_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB128",
+      "updatedAt": "2026-11-17T06:18:43.732Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_THU_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB48615",
+      "updatedAt": "2026-11-17T06:19:26.850Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_THU_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB131",
+      "updatedAt": "2026-11-17T06:20:13.984Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_THU_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB133",
+      "updatedAt": "2026-11-17T06:20:44.779Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_TUE_P1": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB131",
+      "updatedAt": "2026-11-17T06:14:22.221Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_TUE_P2": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB125",
+      "updatedAt": "2026-11-17T06:15:10.776Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_TUE_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB124",
+      "updatedAt": "2026-11-17T06:18:28.371Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_TUE_P4": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB122",
+      "updatedAt": "2026-11-17T06:19:05.867Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_TUE_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB123",
+      "updatedAt": "2026-11-17T06:19:56.287Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_TUE_P6": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB123",
+      "updatedAt": "2026-11-17T06:20:57.828Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_WED_P1": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB127",
+      "updatedAt": "2026-11-17T06:14:36.271Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_WED_P2": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB127",
+      "updatedAt": "2026-11-17T06:14:43.620Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_WED_P3": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB122",
+      "updatedAt": "2026-11-17T06:18:35.449Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_WED_P4": {
+      "allowOverlap": true,
+      "roomNote": "",
+      "subjectId": "SUB129",
+      "updatedAt": "2026-11-17T06:19:16.666Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_WED_P5": {
+      "allowOverlap": false,
+      "roomNote": "",
+      "subjectId": "SUB128",
+      "updatedAt": "2026-11-17T06:20:05.825Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    },
+    "ม.3_WED_P6": {
+      "allowOverlap": false,
+      "roomNote": "ลานกิจกรรม",
+      "subjectId": "SUB125",
+      "updatedAt": "2026-11-17T06:20:51.566Z",
+      "updatedBy": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)"
+    }
+  },
+  "lineConfig": {
+    "autoEnabled": true,
+    "backgroundServerEnabled": true,
+    "bridgeUrl": "https://script.google.com/macros/s/AKfycbwlMy3aGn0EYgPJXWOQSERV50xN7o1DLyYm2jOa_19H_XHsOBnnivzzKuwhJoLozH80Vw/exec",
+    "channelAccessToken": "DWcO+zjC14wXPaCXdWaqjLU+U2KeirkDTikdg7wZ2ubeIB33L77qd30GBvUBokkpP4erLWTa6q0UvtqrlXXypUWiPWEhvhFmUPQTcFrtelX2//j38I2u1LLZUs47ztVn9TIhxXvZbYgbMFRy3GrXPQdB04t89/1O/w1cDnyilFU=",
+    "gradeGroupIds": {
+      "ป.1": "",
+      "ป.2": "",
+      "ป.3": "",
+      "ป.4": "",
+      "ป.5": "",
+      "ป.6": "",
+      "ม.1": "C8f12694150ec09fda8050d04de7af296",
+      "ม.2": "C515da58d4bb3cf0cef566ad831cb9acb",
+      "ม.3": "C94933aa6d2ce5bc191b46867180ea61c"
+    },
+    "lastCloudSyncedAt": "2026-11-19T06:36:21.385Z",
+    "leadMinutes": 0,
+    "logs": [
+      {
+        "message": "🏫 ป.1, ป.2  วิชา : ลูกเสือ - เนตรนารี ก11902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวฐิติมา คำแสง\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นางสาวฐิติมา คำแสง [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:07"
+      },
+      {
+        "message": "🏫 ป.3  วิชา : ลูกเสือ - เนตรนารี ก13902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวสายสวาสดิ์ นันพิลา\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นางสาวสายสวาสดิ์ นันพิลา [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:09"
+      },
+      {
+        "message": "🏫 ป.4  วิชา : ลูกเสือ - เนตรนารี ก14902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวเอกศิรดา นันทศรี\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นางสาวเอกศิรดา นันทศรี [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:09"
+      },
+      {
+        "message": "🏫 ป.5  วิชา : ลูกเสือ - เนตรนารี ก15902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวณัฐธิดา ชูรัตน์\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นางสาวณัฐธิดา ชูรัตน์ [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:10"
+      },
+      {
+        "message": "🏫 ป.6  วิชา : ลูกเสือ - เนตรนารี ก16902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นายศักดิ์สิทธิ์ น้อยโนนเมือง\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นายศักดิ์สิทธิ์ น้อยโนนเมือง [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:12"
+      },
+      {
+        "message": "🏫 ม.1  วิชา : ลูกเสือ - เนตรนารี ก21902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นายจักริน ผลสิน\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นายจักริน ผลสิน [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:13"
+      },
+      {
+        "message": "🏫 ม.2  วิชา : ลูกเสือ - เนตรนารี ก22902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวพนิดา เลิกนอก\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นางสาวพนิดา เลิกนอก [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:15"
+      },
+      {
+        "message": "🏫 ม.3  วิชา : ลูกเสือ - เนตรนารี ก23902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวปุญญพัฒน์ จันตะคุณ\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นางสาวปุญญพัฒน์ จันตะคุณ [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:16"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น ประถมศึกษาปีที่ 1 (ป.1)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก11902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวฐิติมา คำแสง\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ป.1 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:18"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น ประถมศึกษาปีที่ 2 (ป.2)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก12902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวฐิติมา คำแสง\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ป.2 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:18"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น ประถมศึกษาปีที่ 3 (ป.3)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก13902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวสายสวาสดิ์ นันพิลา\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ป.3 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:18"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น ประถมศึกษาปีที่ 4 (ป.4)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก14902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวเอกศิรดา นันทศรี\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ป.4 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:18"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น ประถมศึกษาปีที่ 5 (ป.5)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก15902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวณัฐธิดา ชูรัตน์\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ป.5 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:18"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น ประถมศึกษาปีที่ 6 (ป.6)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก16902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นายศักดิ์สิทธิ์ น้อยโนนเมือง\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ป.6 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:18"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น มัธยมศึกษาปีที่ 1 (ม.1)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก21902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นายจักริน ผลสิน\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ม.1 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:18"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น มัธยมศึกษาปีที่ 2 (ม.2)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก22902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวพนิดา เลิกนอก\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ม.2 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:19"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น มัธยมศึกษาปีที่ 3 (ม.3)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก23902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวปุญญพัฒน์ จันตะคุณ\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ม.3 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:20"
+      },
+      {
+        "message": "🏫 ป.1, ป.2  วิชา : ลูกเสือ - เนตรนารี ก11902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวฐิติมา คำแสง\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นางสาวฐิติมา คำแสง [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:04"
+      },
+      {
+        "message": "🏫 ป.3  วิชา : ลูกเสือ - เนตรนารี ก13902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวสายสวาสดิ์ นันพิลา\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นางสาวสายสวาสดิ์ นันพิลา [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:07"
+      },
+      {
+        "message": "🏫 ป.4  วิชา : ลูกเสือ - เนตรนารี ก14902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวเอกศิรดา นันทศรี\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นางสาวเอกศิรดา นันทศรี [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:07"
+      },
+      {
+        "message": "🏫 ป.5  วิชา : ลูกเสือ - เนตรนารี ก15902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวณัฐธิดา ชูรัตน์\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นางสาวณัฐธิดา ชูรัตน์ [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:09"
+      },
+      {
+        "message": "🏫 ป.6  วิชา : ลูกเสือ - เนตรนารี ก16902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นายศักดิ์สิทธิ์ น้อยโนนเมือง\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นายศักดิ์สิทธิ์ น้อยโนนเมือง [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:10"
+      },
+      {
+        "message": "🏫 ม.1  วิชา : ลูกเสือ - เนตรนารี ก21902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นายจักริน ผลสิน\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นายจักริน ผลสิน [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:12"
+      },
+      {
+        "message": "🏫 ม.2  วิชา : ลูกเสือ - เนตรนารี ก22902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวพนิดา เลิกนอก\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นางสาวพนิดา เลิกนอก [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:13"
+      },
+      {
+        "message": "🏫 ม.3  วิชา : ลูกเสือ - เนตรนารี ก23902\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวปุญญพัฒน์ จันตะคุณ\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 6",
+        "recipient": "ครู นางสาวปุญญพัฒน์ จันตะคุณ [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:14"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น ประถมศึกษาปีที่ 1 (ป.1)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก11902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวฐิติมา คำแสง\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ป.1 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:16"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น ประถมศึกษาปีที่ 2 (ป.2)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก12902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวฐิติมา คำแสง\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ป.2 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:16"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น ประถมศึกษาปีที่ 3 (ป.3)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก13902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวสายสวาสดิ์ นันพิลา\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ป.3 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:16"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น ประถมศึกษาปีที่ 4 (ป.4)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก14902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวเอกศิรดา นันทศรี\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ป.4 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:16"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น ประถมศึกษาปีที่ 5 (ป.5)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก15902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวณัฐธิดา ชูรัตน์\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ป.5 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:16"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น ประถมศึกษาปีที่ 6 (ป.6)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก16902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นายศักดิ์สิทธิ์ น้อยโนนเมือง\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ป.6 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SIMULATED",
+        "time": "14:30:16"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น มัธยมศึกษาปีที่ 1 (ม.1)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก21902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นายจักริน ผลสิน\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ม.1 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:16"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น มัธยมศึกษาปีที่ 2 (ม.2)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก22902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวพนิดา เลิกนอก\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ม.2 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:17"
+      },
+      {
+        "message": "🎒 แจ้งเตือนเข้าเรียน ชั้น มัธยมศึกษาปีที่ 3 (ม.3)\n📅 วันพฤหัสบดี | คาบที่ 6 (14:30 - 15:30 น.)\n📖 วิชา: ก23902 ลูกเสือ - เนตรนารี\n👩‍🏫 ครูผู้สอน: นางสาวปุญญพัฒน์ จันตะคุณ\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+        "period": "คาบที่ 6",
+        "recipient": "นักเรียนชั้น ม.3 [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "14:30:19"
+      },
+      {
+        "message": "🏫 ป.1, ป.2  วิชา : ประวัติศาสตร์ ส11102\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 5 (13:30 - 14:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวฐิติมา คำแสง\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 5",
+        "recipient": "ครู นางสาวฐิติมา คำแสง [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "13:30:06"
+      },
+      {
+        "message": "🏫 ป.4  วิชา : ภาษาไทย ท14101\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 5 (13:30 - 14:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวณัฐธิดา ชูรัตน์\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 5",
+        "recipient": "ครู นางสาวณัฐธิดา ชูรัตน์ [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "13:30:08"
+      },
+      {
+        "message": "🏫 ป.5  วิชา : ป้องกันการทุจริต ว15201\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 5 (13:30 - 14:30 น.)\n👩‍🏫 ครูผู้สอน: นายจักริน ผลสิน\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 5",
+        "recipient": "ครู นายจักริน ผลสิน [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "13:30:10"
+      },
+      {
+        "message": "🏫 ป.6  วิชา : วิทยาศาสตร์และเทคโนโลยี ว16101\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 5 (13:30 - 14:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวปิยะพัฒน์ ธนะสิงห์\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 5",
+        "recipient": "ครู นางสาวปิยะพัฒน์ ธนะสิงห์ [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "13:30:12"
+      },
+      {
+        "message": "🏫 ม.1  วิชา : วิทยาศาสตร์และเทคโนโลยี ว21101\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 5 (13:30 - 14:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวพนิดา เลิกนอก\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 5",
+        "recipient": "ครู นางสาวพนิดา เลิกนอก [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "13:30:14"
+      },
+      {
+        "message": "🏫 ม.2  วิชา : คณิตศาสตร์ ค22101\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วันพฤหัสบดี | คาบที่ 5 (13:30 - 14:30 น.)\n👩‍🏫 ครูผู้สอน: นางสาวเอกศิรดา นันทศรี\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨",
+        "period": "คาบที่ 5",
+        "recipient": "ครู นางสาวเอกศิรดา นันทศรี [อัตโนมัติหลังบ้าน]",
+        "source": "SERVER_BG",
+        "status": "SENT",
+        "time": "13:30:15"
+      }
+    ],
+    "notifyLunch": true,
+    "notifyStudents": true,
+    "notifyTeachers": true,
+    "sentHistoryKeys": {
+      "2026-11-17_TUE_P6": true,
+      "2026-11-18_WED_LUNCH": true,
+      "2026-11-18_WED_P1": true,
+      "2026-11-18_WED_P2": true,
+      "2026-11-18_WED_P3": true,
+      "2026-11-18_WED_P4": true,
+      "2026-11-18_WED_P5": true,
+      "2026-11-18_WED_P6": true,
+      "2026-11-19_THU_LUNCH": true,
+      "2026-11-19_THU_P1": true,
+      "2026-11-19_THU_P2": true,
+      "2026-11-19_THU_P3": true,
+      "2026-11-19_THU_P4": true,
+      "2026-11-19_THU_P5": true,
+      "2026-11-19_THU_P6": true
+    },
+    "studentTemplate": "🎒 แจ้งเตือนเข้าเรียน ชั้น {grade}\n📅 วัน{day} | {period} ({time} น.)\n📖 วิชา: {code} {subject}\n👩‍🏫 ครูผู้สอน: {teacher} {room}\nให้นักเรียนเตรียมอุปกรณ์การเรียนให้พร้อมนะคะ 💖",
+    "teacherGroupId": "",
+    "teacherTemplate": "🏫 {grade} {room} วิชา : {subject} {code}\n🔔 แจ้งเตือนเข้าคาบสอน\n📅 วัน{day} | {period} ({time} น.)\n👩‍🏫 ครูผู้สอน: {teacher}\nขอให้มีความสุขกับการจัดการเรียนการสอนค่ะ ✨"
+  },
+  "changeLogs": [
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1795070183815",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตประวัติการส่งแจ้งเตือน LINE",
+      "timestamp": "2026-11-19T06:36:23.815Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1795070085329",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวฐิติมา คำแสง)",
+      "timestamp": "2026-11-19T06:34:45.329Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1795070083712",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นายศักดิ์สิทธิ์ น้อยโนนเมือง)",
+      "timestamp": "2026-11-19T06:34:43.712Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1795070081146",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวเอกศิรดา นันทศรี)",
+      "timestamp": "2026-11-19T06:34:41.146Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1795070075642",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นายจักริน ผลสิน)",
+      "timestamp": "2026-11-19T06:34:35.642Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1795070073720",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นายจักริน ผลสิน)",
+      "timestamp": "2026-11-19T06:34:33.720Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1795070071015",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวปุญญพัฒน์ จันตะคุณ)",
+      "timestamp": "2026-11-19T06:34:31.015Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1795070068446",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวปุญญพัฒน์ จันตะคุณ)",
+      "timestamp": "2026-11-19T06:34:28.446Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1795070066294",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวพนิดา เลิกนอก)",
+      "timestamp": "2026-11-19T06:34:26.294Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1795070064224",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวณัฐธิดา ชูรัตน์)",
+      "timestamp": "2026-11-19T06:34:24.224Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1795070058756",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวปิยะพัฒน์ ธนะสิงห์)",
+      "timestamp": "2026-11-19T06:34:18.756Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1795067931199",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตประวัติการส่งแจ้งเตือน LINE",
+      "timestamp": "2026-11-19T05:58:51.199Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1795064414779",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตประวัติการส่งแจ้งเตือน LINE",
+      "timestamp": "2026-11-19T05:00:14.779Z"
+    },
+    {
+      "action": "ASSIGN",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)",
+      "dayKey": "WED",
+      "dayName": "พุธ",
+      "grade": "ม.1",
+      "id": "CHG_1794987347415",
+      "periodId": "P6",
+      "periodLabel": "คาบที่ 6",
+      "subjectCode": "อ21101",
+      "subjectName": "ภาษาอังกฤษพื้นฐาน",
+      "summary": "อัปเดตตารางเรียน ชั้น ม.1 วันพุธ คาบที่ 6 เป็นวิชา อ21101 ภาษาอังกฤษพื้นฐาน (นายศักดิ์สิทธิ์ น้อยโนนเมือง)",
+      "teacherName": "นายศักดิ์สิทธิ์ น้อยโนนเมือง",
+      "timestamp": "2026-11-18T07:35:47.415Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794978272307",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตประวัติการส่งแจ้งเตือน LINE",
+      "timestamp": "2026-11-18T05:04:32.307Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794977905440",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตประวัติการส่งแจ้งเตือน LINE",
+      "timestamp": "2026-11-18T04:58:25.440Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794977658259",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตประวัติการส่งแจ้งเตือน LINE",
+      "timestamp": "2026-11-18T04:54:18.259Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794977577524",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตประวัติการส่งแจ้งเตือน LINE",
+      "timestamp": "2026-11-18T04:52:57.524Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794976994420",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตประวัติการส่งแจ้งเตือน LINE",
+      "timestamp": "2026-11-18T04:43:14.420Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794969458760",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวเอกศิรดา นันทศรี)",
+      "timestamp": "2026-11-18T02:37:38.760Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794969429480",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวปุญญพัฒน์ จันตะคุณ)",
+      "timestamp": "2026-11-18T02:37:09.480Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794969408209",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวพนิดา เลิกนอก)",
+      "timestamp": "2026-11-18T02:36:48.209Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794969366160",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวฐิติมา คำแสง)",
+      "timestamp": "2026-11-18T02:36:06.160Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794969314365",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นายศักดิ์สิทธิ์ น้อยโนนเมือง)",
+      "timestamp": "2026-11-18T02:35:14.365Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794968291960",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตประวัติการส่งแจ้งเตือน LINE",
+      "timestamp": "2026-11-18T02:18:11.960Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794925723738",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตรายวิชา ก14901 กิจกรรมแนะแนว ชั้น ป.4",
+      "timestamp": "2026-11-17T14:28:43.738Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794925671687",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตรายวิชา  กิจกรรมแนะแนว ชั้น ป.4",
+      "timestamp": "2026-11-17T14:27:51.687Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794925658574",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตรายวิชา ส14201 ป้องกันการทุจริต ชั้น ป.4",
+      "timestamp": "2026-11-17T14:27:38.574Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794925646970",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตรายวิชา ท14201 ภาษาไทย(เพิ่มเติม) ชั้น ป.4",
+      "timestamp": "2026-11-17T14:27:26.970Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794925458756",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวเอกศิรดา นันทศรี)",
+      "timestamp": "2026-11-17T14:24:18.756Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794925454388",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นายจักริน ผลสิน)",
+      "timestamp": "2026-11-17T14:24:14.388Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794925449553",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวปุญญพัฒน์ จันตะคุณ)",
+      "timestamp": "2026-11-17T14:24:09.553Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794925445374",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวพนิดา เลิกนอก)",
+      "timestamp": "2026-11-17T14:24:05.374Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794925441015",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นายสุรวัฒน์ ถือศักดิ์)",
+      "timestamp": "2026-11-17T14:24:01.015Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794925436908",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวปิยะพัฒน์ ธนะสิงห์)",
+      "timestamp": "2026-11-17T14:23:56.908Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794925429794",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตข้อมูลครูผู้สอน (นางสาวณัฐธิดา ชูรัตน์)",
+      "timestamp": "2026-11-17T14:23:49.794Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794920866538",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตประวัติการส่งแจ้งเตือน LINE",
+      "timestamp": "2026-11-17T13:07:46.538Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794920797099",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตประวัติการส่งแจ้งเตือน LINE",
+      "timestamp": "2026-11-17T13:06:37.099Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794920772236",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตประวัติการส่งแจ้งเตือน LINE",
+      "timestamp": "2026-11-17T13:06:12.236Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794920588319",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตรายวิชา ศ21101 ศิลปะ (ดนตรี-นาฏศิลป์) ชั้น ม.1",
+      "timestamp": "2026-11-17T13:03:08.319Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794920516649",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตรายวิชา ว21101 วิทยาศาสตร์และเทคโนโลยี ชั้น ม.1",
+      "timestamp": "2026-11-17T13:01:56.649Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794920460179",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "ตั้งค่าการสอนรวมชั้นของวิชา การงานอาชีพ",
+      "timestamp": "2026-11-17T13:01:00.179Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794920456793",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "ตั้งค่าการสอนรวมชั้นของวิชา การงานอาชีพ",
+      "timestamp": "2026-11-17T13:00:56.793Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794920397788",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตรายวิชา ก23901 กิจกรรมแนะแนว ชั้น ม.3",
+      "timestamp": "2026-11-17T12:59:57.788Z"
+    },
+    {
+      "action": "SETTINGS_UPDATE",
+      "actorName": "ฝ่ายวิชาการ / ผู้ดูแลระบบ",
+      "dayKey": "MON",
+      "dayName": "ทั้งหมด",
+      "grade": "ทุกชั้นเรียน",
+      "id": "CHG_1794920384693",
+      "periodId": "ALL",
+      "periodLabel": "ข้อมูลพื้นฐาน",
+      "summary": "อัปเดตรายวิชา ก23903 กิจกรรมชุมนุม ชั้น ม.3",
+      "timestamp": "2026-11-17T12:59:44.693Z"
+    },
+    {
+      "action": "ASSIGN",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)",
+      "dayKey": "MON",
+      "dayName": "จันทร์",
+      "grade": "ม.3",
+      "id": "CHG_1794920359751",
+      "periodId": "P6",
+      "periodLabel": "คาบที่ 6",
+      "subjectCode": "ก23901",
+      "subjectName": "กิจกรรมแนะแนว",
+      "summary": "อัปเดตตารางเรียน ชั้น ม.3 วันจันทร์ คาบที่ 6 เป็นวิชา ก23901 กิจกรรมแนะแนว (นางสาวปิยะพัฒน์ ธนะสิงห์)",
+      "teacherName": "นางสาวปิยะพัฒน์ ธนะสิงห์",
+      "timestamp": "2026-11-17T12:59:19.751Z"
+    },
+    {
+      "action": "ASSIGN",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)",
+      "dayKey": "MON",
+      "dayName": "จันทร์",
+      "grade": "ม.3",
+      "id": "CHG_1794920353780",
+      "periodId": "P6",
+      "periodLabel": "คาบที่ 6",
+      "subjectCode": "ก23901",
+      "subjectName": "กิจกรรมแนะแนว",
+      "summary": "อัปเดตตารางเรียน ชั้น ม.3 วันจันทร์ คาบที่ 6 เป็นวิชา ก23901 กิจกรรมแนะแนว (นางสาวปิยะพัฒน์ ธนะสิงห์)",
+      "teacherName": "นางสาวปิยะพัฒน์ ธนะสิงห์",
+      "timestamp": "2026-11-17T12:59:13.780Z"
+    },
+    {
+      "action": "ASSIGN",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)",
+      "dayKey": "MON",
+      "dayName": "จันทร์",
+      "grade": "ม.3",
+      "id": "CHG_1794920343206",
+      "periodId": "P5",
+      "periodLabel": "คาบที่ 5",
+      "subjectCode": "อ23101",
+      "subjectName": "ภาษาอังกฤษพื้นฐาน",
+      "summary": "อัปเดตตารางเรียน ชั้น ม.3 วันจันทร์ คาบที่ 5 เป็นวิชา อ23101 ภาษาอังกฤษพื้นฐาน (นายศักดิ์สิทธิ์ น้อยโนนเมือง)",
+      "teacherName": "นายศักดิ์สิทธิ์ น้อยโนนเมือง",
+      "timestamp": "2026-11-17T12:59:03.206Z"
+    },
+    {
+      "action": "ASSIGN",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)",
+      "dayKey": "MON",
+      "dayName": "จันทร์",
+      "grade": "ม.1",
+      "id": "CHG_1794920275135",
+      "periodId": "P5",
+      "periodLabel": "คาบที่ 5",
+      "subjectCode": "ค21202",
+      "subjectName": "คณิตศาสตร์(เพิ่มเติม)",
+      "summary": "อัปเดตตารางเรียน ชั้น ม.1 วันจันทร์ คาบที่ 5 เป็นวิชา ค21202 คณิตศาสตร์(เพิ่มเติม) (นางสาวเอกศิรดา นันทศรี)",
+      "teacherName": "นางสาวเอกศิรดา นันทศรี",
+      "timestamp": "2026-11-17T12:57:55.135Z"
+    },
+    {
+      "action": "ASSIGN",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ) (admin)",
+      "dayKey": "WED",
+      "dayName": "พุธ",
+      "grade": "ม.1",
+      "id": "CHG_1794920222484",
+      "periodId": "P6",
+      "periodLabel": "คาบที่ 6",
+      "subjectCode": "อ21101",
+      "subjectName": "ภาษาอังกฤษพื้นฐาน",
+      "summary": "อัปเดตตารางเรียน ชั้น ม.1 วันพุธ คาบที่ 6 เป็นวิชา อ21101 ภาษาอังกฤษพื้นฐาน (นายศักดิ์สิทธิ์ น้อยโนนเมือง)",
+      "teacherName": "นายศักดิ์สิทธิ์ น้อยโนนเมือง",
+      "timestamp": "2026-11-17T12:57:02.484Z"
+    }
+  ],
+  "users": [
+    {
+      "authProvider": "firebase_google",
+      "avatarColor": "#E8DFF5",
+      "createdAt": "2026-11-16T15:49:20.922Z",
+      "email": "vitamin.capper@gmail.com",
+      "firebaseUid": "fb_dpk_asset_admin",
+      "fullName": "นายศุภชัย ขาวพา (ผอ. / ผู้ดูแลระบบสูงสุด)",
+      "id": "USR_ADMIN_SUPER",
+      "lastLoginAt": "2026-11-19T06:41:35.939Z",
+      "password": "admin1234",
+      "role": "admin",
+      "status": "active",
+      "username": "vitamin.capper"
+    },
+    {
+      "assignedGrade": "ป.2",
+      "authProvider": "local",
+      "avatarColor": "#FFD6E0",
+      "createdAt": "2026-11-16T15:49:20.922Z",
+      "email": "dpkyst11@donkaew.ac.th",
+      "fullName": "นายศักดกิ์สิทธิ์ น้อยโนนเมือง (เจ้าหน้าที่งานวิชาการ)",
+      "id": "USR_ADMIN_01",
+      "lastLoginAt": "2026-11-19T08:47:33.885Z",
+      "password": "dpkyst11",
+      "role": "admin",
+      "status": "active",
+      "teacherId": "T02",
+      "username": "dpkyst11"
+    },
+    {
+      "assignedGrade": "ป.1",
+      "authProvider": "local",
+      "avatarColor": "#D4F0F0",
+      "createdAt": "2026-11-16T15:49:20.922Z",
+      "email": "somying@donkaew.ac.th",
+      "fullName": "นางสมหญิง รักเด็กดี",
+      "id": "USR_TEACHER_01",
+      "lastLoginAt": "2026-11-16T15:49:20.922Z",
+      "password": "teacher1234",
+      "role": "teacher",
+      "status": "active",
+      "teacherId": "T01",
+      "username": "somying"
+    },
+    {
+      "assignedGrade": "ป.3",
+      "authProvider": "local",
+      "avatarColor": "#DCEDC8",
+      "createdAt": "2026-11-16T15:49:20.922Z",
+      "email": "theeraphat@donkaew.ac.th",
+      "fullName": "นายธีรภัทร วิทยาธร",
+      "id": "USR_TEACHER_02",
+      "password": "teacher1234",
+      "role": "teacher",
+      "status": "active",
+      "teacherId": "T03",
+      "username": "theeraphat"
+    },
+    {
+      "assignedGrade": "ป.1",
+      "authProvider": "local",
+      "avatarColor": "#FFF9C4",
+      "createdAt": "2026-11-16T15:49:20.922Z",
+      "email": "student.p1@donkaew.ac.th",
+      "fullName": "ด.ช.ต้นกล้า รักเรียน",
+      "id": "USR_STUDENT_01",
+      "lastLoginAt": "2026-11-16T15:49:20.922Z",
+      "password": "student1234",
+      "role": "student",
+      "status": "active",
+      "studentCode": "69101",
+      "username": "student.p1"
+    },
+    {
+      "assignedGrade": "ม.1",
+      "authProvider": "local",
+      "avatarColor": "#FFE0B2",
+      "createdAt": "2026-11-16T15:49:20.922Z",
+      "email": "student.m1@donkaew.ac.th",
+      "fullName": "ด.ญ.แพรวพรรณ ขยันยิ่ง",
+      "id": "USR_STUDENT_02",
+      "password": "student1234",
+      "role": "student",
+      "status": "active",
+      "studentCode": "69201",
+      "username": "student.m1"
+    },
+    {
+      "assignedGrade": "ป.1",
+      "authProvider": "firebase_email",
+      "avatarColor": "#E2F0CB",
+      "createdAt": "2026-11-16T14:25:07.811Z",
+      "email": "dpkystofficial@gmail.com",
+      "fullName": "นายศักดิ์สิทธิ์ น้อยโนนเมือง",
+      "id": "USR_107810",
+      "password": "dpkyst11",
+      "role": "admin",
+      "status": "active",
+      "teacherId": "T10",
+      "username": "dpkystofficial"
+    }
+  ],
+  "accessPolicy": {
+    "allowGuestStudentView": true,
+    "allowTeacherTimetableEdit": true,
+    "autoApproveStudentRegistration": false,
+    "firebaseRealtimeSyncEnabled": true
+  },
+  "auditLogs": [
+    {
+      "id": "AUD_1795078053885",
+      "timestamp": "2026-11-19T08:47:33.885Z",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นายศักดกิ์สิทธิ์ น้อยโนนเมือง (เจ้าหน้าที่งานวิชาการ)",
+      "actorRole": "admin",
+      "action": "LOGIN",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_SUPER",
+      "actorName": "นายศุภชัย ขาวพา (ผอ. / ผู้ดูแลระบบสูงสุด)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบผ่าน Firebase Auth (UID: fb_dpk_a) สิทธิ์: admin",
+      "id": "AUD_1795070495939",
+      "timestamp": "2026-11-19T06:41:35.939Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นายศักดกิ์สิทธิ์ น้อยโนนเมือง (เจ้าหน้าที่งานวิชาการ)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)",
+      "id": "AUD_1795070172254",
+      "timestamp": "2026-11-19T06:36:12.254Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นายศักดกิ์สิทธิ์ น้อยโนนเมือง (เจ้าหน้าที่งานวิชาการ)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)",
+      "id": "AUD_1795051049821",
+      "timestamp": "2026-11-19T01:17:29.821Z"
+    },
+    {
+      "action": "USER_UPDATE",
+      "actorId": "ADMIN",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "อัปเดตข้อมูลสมาชิก นายศักดกิ์สิทธิ์ น้อยโนนเมือง (เจ้าหน้าที่งานวิชาการ) (dpkyst11@donkaew.ac.th) -> สิทธิ์: admin, สถานะ: active",
+      "id": "AUD_1794977088444",
+      "timestamp": "2026-11-18T04:44:48.444Z"
+    },
+    {
+      "action": "USER_UPDATE",
+      "actorId": "ADMIN",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "อัปเดตข้อมูลสมาชิก นายศักดกิ์สิทธิ์ น้อยโนนเมือง (หัวหน้างานวิชาการ) (dpkyst11@donkaew.ac.th) -> สิทธิ์: admin, สถานะ: active",
+      "id": "AUD_1794977071868",
+      "timestamp": "2026-11-18T04:44:31.868Z"
+    },
+    {
+      "action": "USER_UPDATE",
+      "actorId": "ADMIN",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "อัปเดตข้อมูลสมาชิก นายศุภชัย ขาวพา (ผอ. / ผู้ดูแลระบบสูงสุด) (vitamin.capper@gmail.com) -> สิทธิ์: admin, สถานะ: active",
+      "id": "AUD_1794977058301",
+      "timestamp": "2026-11-18T04:44:18.301Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)",
+      "id": "AUD_1794968275966",
+      "timestamp": "2026-11-18T02:17:55.966Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)",
+      "id": "AUD_1794925395039",
+      "timestamp": "2026-11-17T14:23:15.039Z"
+    },
+    {
+      "action": "POLICY_UPDATE",
+      "actorId": "ADMIN",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "อัปเดตนโยบายความปลอดภัยและสิทธิ์การเข้าถึงระบบ (RBAC & Firebase Sync Policy)",
+      "id": "AUD_1794922007524",
+      "timestamp": "2026-11-17T13:26:47.524Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)",
+      "id": "AUD_1794921930776",
+      "timestamp": "2026-11-17T13:25:30.776Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)",
+      "id": "AUD_1794918986960",
+      "timestamp": "2026-11-17T12:36:26.960Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)",
+      "id": "AUD_1794918895644",
+      "timestamp": "2026-11-17T12:34:55.644Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)",
+      "id": "AUD_1794918647384",
+      "timestamp": "2026-11-17T12:30:47.384Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)",
+      "id": "AUD_1794915412096",
+      "timestamp": "2026-11-17T11:36:52.096Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)",
+      "id": "AUD_1794901682543",
+      "timestamp": "2026-11-17T07:48:02.543Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)",
+      "id": "AUD_1794899882928",
+      "timestamp": "2026-11-17T07:18:02.928Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)",
+      "id": "AUD_1794846233371",
+      "timestamp": "2026-11-16T16:23:53.371Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี (หัวหน้างานวิชาการ)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบสำเร็จด้วยบัญชี dpkyst11@donkaew.ac.th (สิทธิ์: admin)",
+      "id": "AUD_1794845269227",
+      "timestamp": "2026-11-16T16:07:49.227Z"
+    },
+    {
+      "action": "LOGIN",
+      "actorId": "USR_ADMIN_SUPER",
+      "actorName": "นายเกรียงไกร พัฒนศึกษา (ผอ. / ผู้ดูแลระบบสูงสุด)",
+      "actorRole": "admin",
+      "details": "เข้าสู่ระบบผ่าน Firebase Auth (UID: fb_dpk_a) สิทธิ์: admin",
+      "id": "AUD_1794844414389",
+      "timestamp": "2026-11-16T15:53:34.389Z"
+    },
+    {
+      "action": "FIREBASE_SYNC",
+      "actorId": "USR_ADMIN_01",
+      "actorName": "นางสาวกานต์พิชชา วิชาการดี",
+      "actorRole": "admin",
+      "details": "เชื่อมต่อระบบสมาชิกและฐานข้อมูล Firebase (dpk-asset) พร้อมกำหนดสิทธิ์ผู้ดูแลระบบเริ่มต้น",
+      "id": "AUD_INIT_01",
+      "timestamp": "2026-11-16T15:49:20.923Z"
+    }
+  ],
+  "syncedAt": "2026-11-19T08:29:07.539Z"
+}
